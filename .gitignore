@@ -1,0 +1,8 @@
+# Exclude .terraform folder
+/src/terraform/.terraform
+
+# Exclude .tfstate files
+/src/terraform/*.tfstate*
+
+# Exclude lock file
+/src/terraform/.terraform.lock.hcl
