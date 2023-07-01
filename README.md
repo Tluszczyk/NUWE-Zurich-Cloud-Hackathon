@@ -49,7 +49,15 @@ The infrastructure stack is created using Terraform, following best practices fo
 <br>
 
 ## ✅ Testing
-Although testing was not included in the objectives of the challenge, a Python script can be created to create a testing stack, upload a file to the S3 bucket, and verify the data insertion into the database.
+
+The implementation has undergone manual testing, as automated tests were not within the scope of the challenge. The testing process includes the following steps:
+1. Creation of a testing stack
+2. Uploading a JSON file to the S3 bucket
+3. Validation of data insertion into the database
+4. Examination of Lambda function logs
+5. Deletion of the testing stack
+
+While a Python script can be developed to automate these steps if desired, the current manual testing process ensures the evaluation of solution performance and functionality.
 
 <br>
 
